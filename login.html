@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Signup</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .main {
+        height: 100vh;
+        width: 100%;
+
+        background-color: rgb(148, 168, 185);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+    }
+
+    .header {
+        width: auto;
+        height: 100px;
+        /* border: solid red; */
+        background-color: rgba(42, 41, 41, 0.932);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+
+    .logo {
+        color: white;
+    }
+
+    .nav ul {
+        display: flex;
+    }
+
+    .nav ul li {
+        list-style: none;
+        padding: 10px;
+    }
+
+    .nav ul a {
+        text-decoration: none;
+        color: white;
+        font-size: 23px;
+
+    }
+
+    .form {
+        padding-top: 30px;
+        height: 65%;
+        width: 28%;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.797);
+        margin: 30px auto;
+
+    }
+
+    .form input {
+        height: 25px;
+        width: 80%;
+        padding: 10px;
+        font-size: 22px;
+        margin-top: 5%;
+        margin-left: 7.5%;
+        background-color: transparent;
+        border: 2px solid black;
+        border-radius: 10px;
+        color: black;
+    }
+
+    .form h1 {
+        color: black;
+        font-size: 40px;
+        text-align: center;
+
+    }
+    .btn{
+        height: 43px;
+        width: 35%;
+        margin-left: 10%;
+        margin-top: 20px;
+        border: 2px solid black;
+        border-radius:10px ;
+        font-size: 25px;
+        background-color: transparent;
+        color:black ;
+    }
+    
+    .form a{
+        text-decoration: none;
+        font-size: 18px;
+        color: blue;
+
+    }
+    .nav ul a :hover{
+    text-decoration: underline;
+
+}
+    .link{
+        display: flex;
+        justify-content: space-between;
+        margin: 30px 40px;
+    }
+    .link3{
+        display: flex;
+        justify-content: center;
+        margin: 20px 40px;
+        
+    }
+    
+
+    
+</style>
+
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="logo">
+                <h1>E Commerce</h1>
+            </div>
+            <div class="nav">
+                <ul>
+                    <a href="index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="about.html">
+                        <li>About</li>
+                    </a>
+                    <a href="contact.html">
+                        <li>Contact</li>
+                    </a>
+                    <a href="login.html">
+                        <li>Sign up</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+        <div class="form">
+            <form action="">
+                <h1>Login or Signup</h1>
+                <br>
+                <hr>
+                <input type="text" placeholder="Enter Email">
+                <input type="text" placeholder="Enter Password">
+                <button class="btn" type="submit">Submit</button>
+                <button class="btn" type="reset">Clear</button>
+                <br>
+                <div class="link">
+               <a href="#">Forgot Password</a>
+               <a href="#">Create a new account</a>
+               </div>
+               <div class="link3">
+              <a href="ecom.html">Back to Home page</a>
+             </div>
+            </div>
+            </form>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
