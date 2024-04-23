@@ -26,8 +26,7 @@
     .header {
         width: auto;
         height: 100px;
-        /* border: solid red; */
-        background-color: rgba(42, 41, 41, 0.932);
+        background-color: black;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -38,6 +37,7 @@
     .logo {
         color: white;
     }
+
     .nav ul {
         display: flex;
     }
@@ -50,7 +50,7 @@
     .nav ul a {
         text-decoration: none;
         color: white;
-        font-size: 23px;
+        font-size: 21px;
 
     }
 
@@ -83,51 +83,52 @@
         text-align: center;
 
     }
-    .btn{
+
+    .btn {
         height: 40px;
         width: 35%;
         margin-left: 10%;
         margin-top: 10px;
         border: 2px solid black;
-        border-radius:10px ;
+        border-radius: 10px;
         font-size: 25px;
         background-color: transparent;
-        color:black ;
+        color: black;
     }
-    textarea{
+
+    textarea {
         margin: 20px 36px;
         background-color: transparent;
         color: black;
         font-size: 15px;
         padding: 5px;
     }
-    
-    .form a{
+
+    .form a {
         text-decoration: none;
         font-size: 20px;
         color: blue;
 
-        
-    }
-    .nav ul a :hover{
-    text-decoration: underline;
 
-}
-    .link{
+    }
+
+    .nav ul a :hover {
+        text-decoration: underline;
+
+    }
+
+    .link {
         display: flex;
         justify-content: center;
         margin: 30px 40px;
     }
-    
-
-    
 </style>
 
 <body>
     <div class="main">
         <div class="header">
             <div class="logo">
-                <h1>E Commerce</h1>
+                <a href="index.html"><img src="logo2.png" alt="error"></a>
             </div>
             <div class="nav">
                 <ul>
@@ -137,11 +138,11 @@
                     <a href="about.html">
                         <li>About</li>
                     </a>
-                    <a href="contact.html">
+                    <a style="text-decoration: underline;" href="contact.html">
                         <li>Contact</li>
                     </a>
                     <a href="login.html">
-                        <li>Sign up</li>
+                        <li>Join us</li>
                     </a>
                 </ul>
             </div>
@@ -154,20 +155,20 @@
                 <input type="text" placeholder="Enter First Name">
                 <input type="text" placeholder="Enter Last Name">
                 <input type="text" placeholder="Enter Email">
-            <textarea name="" cols="40" rows="4" placeholder="Write a message"></textarea>
+                <textarea name="" cols="40" rows="4" placeholder="Write a message"></textarea>
                 <button class="btn" type="submit">Submit</button>
                 <button class="btn" type="reset">Clear</button>
                 <br>
                 <div class="link">
-               
-               <a href="ecom.html">Back to Home page</a>
-               
-            </div>
-            
-               
-            </div>
-            </form>
+
+                    <a href="ecom.html">Back to Home page</a>
+
+                </div>
+
+
         </div>
+        </form>
+    </div>
 
     </div>
 

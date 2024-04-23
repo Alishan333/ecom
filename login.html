@@ -26,8 +26,7 @@
     .header {
         width: auto;
         height: 100px;
-        /* border: solid red; */
-        background-color: rgba(42, 41, 41, 0.932);
+        background-color: black;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -51,7 +50,7 @@
     .nav ul a {
         text-decoration: none;
         color: white;
-        font-size: 23px;
+        font-size: 21px;
 
     }
 
@@ -84,49 +83,50 @@
         text-align: center;
 
     }
-    .btn{
+
+    .btn {
         height: 43px;
         width: 35%;
         margin-left: 10%;
         margin-top: 20px;
         border: 2px solid black;
-        border-radius:10px ;
+        border-radius: 10px;
         font-size: 25px;
         background-color: transparent;
-        color:black ;
+        color: black;
     }
-    
-    .form a{
+
+    .form a {
         text-decoration: none;
         font-size: 18px;
         color: blue;
 
     }
-    .nav ul a :hover{
-    text-decoration: underline;
 
-}
-    .link{
+    .nav ul a :hover {
+        text-decoration: underline;
+
+    }
+
+    .link {
         display: flex;
         justify-content: space-between;
         margin: 30px 40px;
     }
-    .link3{
+
+    .link3 {
         display: flex;
         justify-content: center;
         margin: 20px 40px;
-        
-    }
-    
 
-    
+    }
 </style>
 
 <body>
     <div class="main">
         <div class="header">
             <div class="logo">
-                <h1>E Commerce</h1>
+                <a href="index.html"><img src="logo2.png" alt="error"></a>
             </div>
             <div class="nav">
                 <ul>
@@ -139,7 +139,7 @@
                     <a href="contact.html">
                         <li>Contact</li>
                     </a>
-                    <a href="login.html">
+                    <a style="text-decoration: underline;" href="login.html">
                         <li>Sign up</li>
                     </a>
                 </ul>
@@ -147,7 +147,7 @@
         </div>
         <div class="form">
             <form action="">
-                <h1>Login or Signup</h1>
+                <h1>Login</h1>
                 <br>
                 <hr>
                 <input type="text" placeholder="Enter Email">
@@ -156,15 +156,15 @@
                 <button class="btn" type="reset">Clear</button>
                 <br>
                 <div class="link">
-               <a href="#">Forgot Password</a>
-               <a href="#">Create a new account</a>
-               </div>
-               <div class="link3">
-              <a href="ecom.html">Back to Home page</a>
-             </div>
-            </div>
-            </form>
+                    <a href="#">Forgot Password</a>
+                    <a href="#">Create a new account</a>
+                </div>
+                <div class="link3">
+                    <a href="index.html">Back to Home page</a>
+                </div>
         </div>
+        </form>
+    </div>
 
     </div>
 
