@@ -13,6 +13,10 @@
         padding: 0;
     }
 
+    body {
+        background-color: antiquewhite;
+    }
+
     .main {
         height: 100vh;
         width: 100%;
@@ -66,11 +70,11 @@
     }
 
     .content {
-        height: 400px;
+        height: auto;
         width: 950px;
         /* border: 2px solid white; */
         margin-left: 20px;
-        margin-top: 80px;
+        margin-top: 100px;
         text-align: center;
         justify-content: center;
     }
@@ -78,14 +82,17 @@
     .content h1 {
         color: white;
         text-align: center;
-        margin-top: 7%;
+        margin-top: 30px;
+        margin-bottom: 30px;
         font-size: 100px;
     }
 
     .content h3 {
         color: white;
         text-align: center;
-        margin-top: 10px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+
         font-size: 40px;
     }
 
@@ -93,6 +100,65 @@
         font-size: 20px;
         margin-top: 20px;
         font-weight: 100;
+    }
+
+    .product_div {
+        background-color: white;
+    }
+
+    .product_div h1,h2 {
+        font-size: 50px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .product_div .p {
+        font-size: 23px;
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 30px;
+        margin-right: 30px;
+        padding: 10px 50px;
+    }
+
+    .products {
+        width: 97vw;
+        height: auto;
+        margin-left: 20px;
+        margin-top: 10px;
+        padding-top: 80px;
+        padding-bottom: 50px;
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+
+    .section1 {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 20px;
+        /* border: 1px solid red; */
+        color: black;
+        
+    }
+    .section1 a p{
+    font-size: 17px;
+        text-align: center;
+        
+    }
+    .section1 a{
+        text-decoration: none;
+        color: black;
+        
+    }
+    .section2{
+        height: 60px;
+        width: auto;
+    }
+    .section1 img:hover{
+        transform: scale(1.1);
+        transition-duration: 0.5s;
+
     }
 </style>
 
@@ -128,6 +194,61 @@
                     rerum ipsa ipsam, a eaque asperiores repellendus, ad excepturi suscipit dignissimos non deleniti
                 </p>
         </div>
+
+    </div>
+
+
+
+    <div class="product_div">
+        <h1>Available Products</h1>
+        <h2>Cameras</h2>
+        <div class="section1">
+           
+            <a href="#">
+                <img src="cam1.png" alt="error" height="230px" width="230px">
+                <p>Canon Model 2023</p>
+                <p>$19.99</p>
+             </a>
+            <a href="#"><img src="cam2.png" alt="error" height="220px" width="220px">
+                <p>Canon Model 2019</p>
+                <p>$25.99</p>
+            </a>
+            <a href="#"><img src="cam3.png" alt="error" height="220px" width="220px">
+            <p>Canon Model 2024</p>
+            <p>$39.99</p>
+            </a>
+            <a href="#"><img src="cam4.png" alt="error" height="220px" width="220px">
+                <p>Canon Model 2021</p>
+                <p>$15.99</p>           
+            </a>
+        </div>
+
+        <h2>Apple Phones</h2>
+        <div class="section1">
+             
+            <a href="#">
+                <img src="/11.png" alt="error" height="220px" width="220px">
+                <p>iPhone_11 128GB (PTA Aprooved)</p>
+                <p>Rs. 144,899 PKR</p>
+             </a>
+            <a href="#"><img src="/12-.png" alt="error" height="220px" width="220px">
+                <p>iPhone_12 56GB (PTA Aprooved)</p>
+                <p>Rs. 239,999</p>
+            </a>
+            <a href="#"><img src="/13.png" alt="error" height="220px" width="220px">
+            <p>iPhone_13 128GB (Non-PTA)</p>
+            <p>Rs. 273,899 PKR</p>
+            </a>
+            <a href="#"><img src="/14.png" alt="error" height="220px" width="220px">
+                <p>iPhone_14 128GB (PTA Aprooved)</p>
+                <p>Rs. 384,999 PKR</p>           
+            </a>
+        </div>
+
+
+<div class="section2">
+
+</div>
 
     </div>
 </body>
