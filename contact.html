@@ -13,7 +13,7 @@
     }
 
     .main {
-        height: 100vh;
+        height: 86.4vh;
         width: 100%;
 
         background-color: rgb(148, 168, 185);
@@ -24,20 +24,25 @@
     }
 
     .header {
-        width: auto;
+        width: 100%;
         height: 100px;
         background-color: black;
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding-left: 45px;
-        padding-right: 45px;
+
+        position: fixed;
+        top: 0;
     }
 
     .logo {
         color: white;
+        margin-bottom: 30px;
     }
 
+    .nav{
+        padding-right: 5%;
+    }
     .nav ul {
         display: flex;
     }
@@ -54,13 +59,26 @@
 
     }
 
+    .form-main{
+        /* border: 2px solid red; */
+
+        height: 99%;
+        width: 99.7%;
+        margin-top: 100px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .form {
         padding-top: 30px;
-        height: 70%;
+        height: auto;
         width: 28%;
         border-radius: 10px;
         background-color: rgba(255, 255, 255, 0.797);
         margin: 30px auto;
+
+        /* border: 2px solid greenyellow; */
 
     }
 
@@ -75,6 +93,13 @@
         border: 2px solid black;
         border-radius: 10px;
         color: black;
+    }
+
+    .form textarea{
+        width: 80%;
+        padding: 10px;
+        margin-top: 4%;
+        margin-left: 7.5%;
     }
 
     .form h1 {
@@ -142,32 +167,36 @@
                         <li>Contact</li>
                     </a>
                     <a href="login.html">
-                        <li>Join us</li>
+                        <li>Join Us</li>
                     </a>
                 </ul>
             </div>
         </div>
-        <div class="form">
-            <form action="">
-                <h1>Contact</h1>
-                <br>
-                <hr>
-                <input type="text" placeholder="Enter First Name">
-                <input type="text" placeholder="Enter Last Name">
-                <input type="email" placeholder="Enter Email">
-                <textarea name="" cols="40" rows="4" placeholder="Write a message"></textarea>
-                <button class="btn" type="submit">Submit</button>
-                <button class="btn" type="reset">Clear</button>
-                <br>
-                <div class="link">
-
-                    <a href="index.html">Back to Home page</a>
-
-                </div>
-
-
+        
+        <div class="form-main">
+            <div class="form">
+                <form action="">
+                    <h1>Contact</h1>
+                    <br>
+                    <hr>
+                    <input type="text" placeholder="Enter First Name">
+                    <input type="text" placeholder="Enter Last Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea name="" cols="35" rows="4" placeholder="Write a message" style="resize: none;"></textarea>
+                    <button class="btn" type="submit">Submit</button>
+                    <button class="btn" type="reset">Clear</button>
+                    <br>
+                    <div class="link">
+    
+                        <a href="index.html">Back to Home page</a>
+    
+                    </div>
+    
+    
+                </form>
+            </div>
         </div>
-        </form>
+        
     </div>
 
     </div>

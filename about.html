@@ -15,34 +15,52 @@
     .main {
 
         height: 100vh;
-        width: 100%;
+        width: 100vw;
+    }
+
+    .text-main{
+        height: 99%;
+        width: 99%;
+        /* border: 2px solid greenyellow; */
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .txt {
         margin: 80px auto;
-        height: 60%;
+        /* border: 2px solid red; */
+        height: auto;
         width: 80%;
         font-size: 20px;
         text-align: center;
-        padding: 30px;
 
+    }
+    .txt h1, .txt p{
+        padding: 20px;
     }
 
     .header {
-        width: auto;
+        width: 100%;
         height: 100px;
         background-color: black;
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding-left: 45px;
-        padding-right: 45px;
+
+        position: fixed;
+        top: 0;
     }
 
     .logo {
         color: white;
+        margin-bottom: 30px;
     }
 
+    .nav{
+        padding-right: 5%;
+    }
     .nav ul {
         display: flex;
     }
@@ -84,28 +102,31 @@
                         <li>Contact</li>
                     </a>
                     <a href="login.html">
-                        <li> Join us</li>
+                        <li> Join Us</li>
                     </a>
                 </ul>
             </div>
         </div>
 
-        <div class="txt">
-            <h1>This is all about us </h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga impedit blanditiis ipsam nesciunt magni
-                quis, provident et sit nobis. Nulla velit saepe vel ipsam animi culpa praesentium voluptas accusantium
-                nisi quibusdam autem voluptatibus libero asperiores, fugiat numquam dicta maxime sed beatae, officiis
-                laudantium, illum error maiores vitae? Aspernatur fuga reiciendis quaerat error, veniam consequatur
-                nihil distinctio sequi beatae eius. Minima, voluptas voluptatum quo exercitationem suscipit natus soluta
-                dolore, repellendus perferendis molestiae ullam dolor quidem? Laborum animi dolorum asperiores
-                distinctio atque quisquam voluptatem repellendus rerum! Corporis dignissimos debitis nesciunt id
-                reiciendis! Deleniti rem corporis rerum optio facilis, eligendi magni consequatur nam.</p>
-            <br>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem asperiores doloribus ab impedit tenetur
-            tempora soluta enim ex reiciendis, eum ipsam quos rem aliquam facilis, numquam illum eos iusto? Possimus,
-            vel. Ducimus, ullam recusandae ab delectus rem corrupti. Laborum, assumenda cumque delectus et
-            exercitationem obcaecati aut beatae nesciunt reprehenderit odio officia est veniam deserunt, sint quasi
-            adipisci quos illum vitae.
+
+        <div class="text-main">
+            <div class="txt">
+                <h1>This is all about us </h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga impedit blanditiis ipsam nesciunt magni
+                    quis, provident et sit nobis. Nulla velit saepe vel ipsam animi culpa praesentium voluptas accusantium
+                    nisi quibusdam autem voluptatibus libero asperiores, fugiat numquam dicta maxime sed beatae, officiis
+                    laudantium, illum error maiores vitae? Aspernatur fuga reiciendis quaerat error, veniam consequatur
+                    nihil distinctio sequi beatae eius. Minima, voluptas voluptatum quo exercitationem suscipit natus soluta
+                    dolore, repellendus perferendis molestiae ullam dolor quidem? Laborum animi dolorum asperiores
+                    distinctio atque quisquam voluptatem repellendus rerum! Corporis dignissimos debitis nesciunt id
+                    reiciendis! Deleniti rem corporis rerum optio facilis, eligendi magni consequatur nam.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem asperiores doloribus ab impedit tenetur
+                    tempora soluta enim ex reiciendis, eum ipsam quos rem aliquam facilis, numquam illum eos iusto? Possimus,
+                    vel. Ducimus, ullam recusandae ab delectus rem corrupti. Laborum, assumenda cumque delectus et
+                    exercitationem obcaecati aut beatae nesciunt reprehenderit odio officia est veniam deserunt, sint quasi
+                    adipisci quos illum vitae.</p>
+            </div>
         </div>
     </div>
 </body>

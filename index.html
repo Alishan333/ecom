@@ -12,6 +12,7 @@
     * {
         margin: 0;
         padding: 0;
+        box-sizing: border-box;
     }
 
     body {
@@ -29,18 +30,20 @@
     }
 
     .header {
-        width: auto;
+        width: 100%;
         height: 100px;
         background-color: black;
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding-left: 45px;
-        padding-right: 45px;
+
+        position: fixed;
+        top: 0;
     }
 
     .logo {
         color: white;
+        margin-bottom: 30px;
     }
 
     .active a {
@@ -48,6 +51,9 @@
 
     }
 
+    .nav{
+        padding-right: 5%;
+    }
     .nav ul {
         display: flex;
     }
@@ -70,14 +76,25 @@
 
     }
 
+    .content-main{
+        width: 70%;
+        height: 100%;
+        /* border: 2px solid red; */
+
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+    }
+
     .content {
         height: auto;
-        width: 950px;
+        width: 90%;
         /* border: 2px solid white; */
         margin-left: 20px;
         margin-top: 100px;
         text-align: center;
-        justify-content: center;
+
     }
 
     .content h1 {
@@ -101,6 +118,9 @@
         font-size: 20px;
         margin-top: 20px;
         font-weight: 100;
+
+        padding-right: 90px;
+        padding-left: 90px;
     }
 
     .product_div {
@@ -152,6 +172,10 @@
         color: black;
         
     }
+
+    .section1 a img{
+        padding-bottom: 20px;
+    }
   
     .section1 img:hover{
         transform: scale(1.1);
@@ -179,18 +203,20 @@
                         <li>Contact</li>
                     </a>
                     <a href="login.html">
-                        <li> Join us</li>
+                        <li> Join Us</li>
                     </a>
                 </ul>
             </div>
         </div>
 
-        <div class="content">
-            <h1>Welcome to our Store</h1>
-            <h3>E Commerce Store</3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, expedita? Tempora repudiandae
-                    rerum ipsa ipsam, a eaque asperiores repellendus, ad excepturi suscipit dignissimos non deleniti
-                </p>
+        <div class="content-main">
+            <div class="content">
+                <h1>Welcome to our Store</h1>
+                <h3>E Commerce Store</3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, expedita? Tempora repudiandae
+                        rerum ipsa ipsam, a eaque asperiores repellendus, ad excepturi suscipit dignissimos non deleniti
+                    </p>
+            </div>
         </div>
 
     </div>
@@ -221,7 +247,7 @@
             </a>
         </div>
 
-        <h2>Apple Phones</h2>
+        <h2 style="margin-bottom: 40px;">Apple Phones</h2>
         <div class="section1">
              
             <a href="#">
