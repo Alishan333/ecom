@@ -1,11 +1,10 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Task Four</title>
+    <title>E Commerce</title>
 
 </head>
 <style>
@@ -13,6 +12,7 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 
     body {
@@ -51,9 +51,10 @@
 
     }
 
-    .nav{
+    .nav {
         padding-right: 5%;
     }
+
     .nav ul {
         display: flex;
     }
@@ -76,7 +77,7 @@
 
     }
 
-    .content-main{
+    .content-main {
         width: 70%;
         height: 100%;
         /* border: 2px solid red; */
@@ -127,7 +128,8 @@
         background-color: white;
     }
 
-    .product_div h1,h2 {
+    .product_div h1,
+    h2 {
         font-size: 50px;
         text-align: center;
         padding-top: 20px;
@@ -160,26 +162,47 @@
         padding: 20px;
         /* border: 1px solid red; */
         color: black;
-        
-    }
-    .section1 a p{
-    font-size: 17px;
-        text-align: center;
-        
-    }
-    .section1 a{
-        text-decoration: none;
-        color: black;
-        
+
     }
 
-    .section1 a img{
-        padding-bottom: 20px;
+    .section1 a p {
+        font-size: 17px;
+        text-align: center;
+
     }
-  
-    .section1 img:hover{
-        transform: scale(1.1);
-        transition-duration: 0.5s;
+
+    .section1 a {
+        text-decoration: none;
+        color: black;
+
+    }
+
+    .section1 a img {
+        padding-bottom: 20px;
+
+
+    }
+
+    .section1 img:hover {
+
+        border: 2px solid black;
+        border-radius: 20px;
+        padding: 15px;
+        transition-duration: 0.1s;
+
+
+    }
+
+    .footer {
+        width: 100%;
+        height: 100px;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 21px;
+        font-weight: 600;
 
     }
 </style>
@@ -227,50 +250,53 @@
         <h1>Available Products</h1>
         <h2>Cameras</h2>
         <div class="section1">
-           
+
             <a href="#">
                 <img src="cam1.png" alt="error" height="230px" width="230px">
                 <p>Canon Model 2023</p>
                 <p>$19.99</p>
-             </a>
+            </a>
             <a href="#"><img src="cam2.png" alt="error" height="220px" width="220px">
                 <p>Canon Model 2019</p>
                 <p>$25.99</p>
             </a>
             <a href="#"><img src="cam3.png" alt="error" height="220px" width="220px">
-            <p>Canon Model 2024</p>
-            <p>$39.99</p>
+                <p>Canon Model 2024</p>
+                <p>$39.99</p>
             </a>
             <a href="#"><img src="cam4.png" alt="error" height="220px" width="220px">
                 <p>Canon Model 2021</p>
-                <p>$15.99</p>           
+                <p>$15.99</p>
             </a>
         </div>
 
         <h2 style="margin-bottom: 40px;">Apple Phones</h2>
         <div class="section1">
-             
+
             <a href="#">
                 <img src="11.jpg" alt="error" height="220px" width="230px">
-                <p>iPhone_11 128GB (PTA Aprooved)</p>
+                <p>iPhone 11 128GB (PTA Aprooved)</p>
                 <p>Rs. 144,899 PKR</p>
-             </a>
+            </a>
             <a href="#"><img src="12.jpg" alt="error" height="220px" width="230px">
-                <p>iPhone_12 56GB (PTA Aprooved)</p>
+                <p>iPhone 12 56GB (PTA Aprooved)</p>
                 <p>Rs. 239,999</p>
             </a>
             <a href="#"><img src="13.jpg" alt="error" height="220px" width="230px">
-            <p>iPhone_13 128GB (Non-PTA)</p>
-            <p>Rs. 273,899 PKR</p>
+                <p>iPhone 13 128GB (Non-PTA)</p>
+                <p>Rs. 273,899 PKR</p>
             </a>
             <a href="#"><img src="14.jpg" alt="error" height="220px" width="230px">
-                <p>iPhone_14 128GB (PTA Aprooved)</p>
-                <p>Rs. 384,999 PKR</p>           
+                <p>iPhone 14 128GB (PTA Aprooved)</p>
+                <p>Rs. 384,999 PKR</p>
             </a>
         </div>
 
 
     </div>
+    <footer class="footer">
+        <p>E Commerce All Rights Reserved &copy; 2024 </p>
+    </footer>
 </body>
 
 </html>
